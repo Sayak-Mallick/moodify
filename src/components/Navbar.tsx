@@ -9,8 +9,11 @@ const Navbar = () => {
       </div>
       <div className="flex items-center gap-4">
         <button className="bg-white text-black text-[15px] font-medium px-4 py-1.5 rounded-2xl hidden md:block cursor-pointer">Explore Premium</button>
-        <button className="bg-black text-white text-[15px] font-medium px-4 py-1.5 rounded-2xl hidden md:block cursor-pointer">Install App</button>
-        <div className="bg-blue-400 text-white w-7 h-7 rounded-full flex items-center justify-between">S</div>
+        <button className="flex items-center justify-center gap-2  text-gray-400 font-medium px-4 py-1.5 rounded-2xl cursor-pointer">
+          <img className="w-5" src={assets.download_icon} alt="download app" />
+          Install App
+        </button>
+        <div className="bg-blue-400 text-white w-7 h-7 rounded-full flex items-center justify-center">S</div>
       </div>
     </div>
   );
